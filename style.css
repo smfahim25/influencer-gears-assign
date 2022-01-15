@@ -22,14 +22,15 @@ a{
  nav bar 
 ----------- */
 header{
-    width: 100%;
+    width: 1440;
     top: 0;
     left: 0;
     right: 0;
-    margin-top: 50px;
+    justify-content: center;
+    margin-top: 5px;
 }
 .logo{
-    margin-left: 120px;
+    margin-left: 100px;
 }
 .btn{
     font-size: 24px;
@@ -50,10 +51,10 @@ header{
     display: none;
 }
 .nav-items li{
-    margin-right: 34px;
+    margin-left: 34px;
 }
 .nav-items{
-    margin-right: 80px;
+    margin-right: 100px;
 }
 
 /*-------------
@@ -90,12 +91,12 @@ header{
      display: flex;
      width: 1190px;
      justify-content: center;
-     margin-left: 120px;
+     margin-left: 100px;
 }
 .journey{
     width: 582px;
     margin-top: 120px;
-    margin-right: 133px;
+    margin-right: 120px;
 }
 .intro-detail{
     font-size: 52px;
@@ -130,13 +131,18 @@ header{
 
  .brand-section{
      display: flex;
-     justify-content: space-between;
-     width: 987px;
-     margin-top: 36px;
-     margin-left: 165px;
+     align-items: center;
+     width: 1110px;
+     margin-top: 15px;
+     margin-left: 100px;
+ }
+ .brand{
+     margin-right: 60px;
+     padding: 10px;
  }
  hr{
      margin-top: 70px;
+     width: 1110px ;
  }
  .hr-cl{
      margin-top: 25px;
@@ -151,10 +157,6 @@ header{
  popular collection start
 ---------------------- */
 
-.popular-collection{
-    width: 1050px;
-    
-}
 .popular-collection h1{
     font-size: 28px;
     font-weight: 500;
@@ -164,14 +166,13 @@ header{
     margin-bottom: 45px;
 }
 .product-grid{
-    width: 1050px;
-    height: 1520px;
+    width: 1150px;
+    height: 1550px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
-    grid-row-gap: 0;
     justify-content: center;
-    margin-left: 197px;
+    margin-left: 100px;
 }
 .price{
     font-size: 24px;
@@ -179,26 +180,26 @@ header{
     font-weight: 400;
 }
 .rating{
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Roboto', sans-serif;
     margin-top: 8px;
-    margin-bottom: 8px;
 }
 .collection{
     box-shadow: 1px 0px 15px 10px #00000026;
     border-radius: 5px;
     height: 476px;
     margin-bottom: 0;
+    padding: 5px;
 }
 .collection img{
     display: block;
+    width: 300px;
+    height: 256px;
+    margin-left: 25px;
     margin-top: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
-  width: 90%;
 }
 .para-section{
-    margin-left: 15px;
+    margin-left: 20px;
 }
 .writing{
     color: #787885;
@@ -210,11 +211,14 @@ header{
     color: #FB8200;
 }
 .see-btn{
+    width: 1250px;
     color:#E02C6D ;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
-    margin-left: 1144px;
-    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 10px;
 }
 
 /*-----------------
@@ -223,7 +227,7 @@ header{
 
 #contact-us {
     width: 1050px;
-    margin-left: 197px;
+    margin-left: 150px;
     background-color:white;
     box-shadow: 1px 0px 15px 10px #00000026;
   }

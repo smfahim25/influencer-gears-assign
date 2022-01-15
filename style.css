@@ -491,5 +491,12 @@ header{
         width: 100%;
         position: relative;
         margin-top: 2900px;
+
+    }
+    .footer-intro{
+        text-align: left;
+    }
+    .footer-part{
+        text-align: left;
     }
        }

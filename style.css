@@ -423,6 +423,8 @@ header{
         display: none;
     }
     footer{
-        display: none;
+        width: 100%;
+        position: relative;
+        margin-top: 2000px;
     }
    }
